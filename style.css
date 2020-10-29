@@ -1,0 +1,333 @@
+body {
+	font-family: Arial;
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.main-header {
+	background-color: #445162;
+	color: #fff;
+	padding: 50px;
+}
+
+.main-header::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.main-header-wrp {
+	float: left;
+}
+
+.main-header-title {
+	font-size: 60px;
+	margin-bottom: 40px;
+	font-weight: 400;
+}
+
+.main-header-list {
+	list-style-type: none;
+}
+
+.main-header-list-item {
+	font-size: 20px;
+	margin-bottom: 15px;
+	padding-left: 25px;
+	position: relative;
+}
+
+.main-header-list-item::before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 3px;
+	left: 0;
+	background-image: url('https://i.ibb.co/QkRXTBg/check-icon-1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 5px;
+}
+
+.main-header-img {
+	width: 472px;
+	height: 217px;
+	display: block;
+	background-color: #fff;
+	float: right;
+}
+
+.content {
+	width: 1280px;
+	margin: 0 auto;
+}
+.about-product {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-product-wrp {
+	flex-grow: 1;
+	align-items: center;
+
+}
+
+.about-product-h2 {
+	padding:50px 50px 6px 50px;
+	font-size: 30px;	
+	color: #445162;
+	font-weight: normal;
+}
+
+.about-product-text {
+	padding:11px 50px;
+	font-size: 16px;	
+	line-height: 24px;
+	color: #333333;
+}
+
+.about-product-video {
+	margin:45px 50px 50px 50px;
+	width: 430px;
+	height: 245px;
+	background-color: #445162;
+	box-sizing: border-box;
+}
+
+.dignity {
+	width: 1280px;
+	background-color: #F5F5F5;
+	
+}
+
+.dignity-h2 {
+	padding:25px;
+	text-align:center;
+	font-size: 30px;	
+	color: #445162;
+	font-weight: normal;
+}
+
+.dignity-list {
+	list-style-type:none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.dignity-list-item {
+	font-size: 16px;
+	line-height: 24px;
+	color: #333333;
+	margin-bottom: 26px;
+	margin-left:50px;
+	padding-left: 50px;
+	position: relative;
+	width:42%;
+}
+	
+.dignity-list-item::before {
+	content: '';
+	width: 32px;
+	height: 32px;
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	background-image: url('https://www.goprintandpromo.com/wp-content/uploads/sites/11/2016/11/PrintandPromo-Logo.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 5px;	
+}
+
+.screenshots {
+	width: 1280px;
+	
+}
+.screenshots-h2{
+	padding:25px;
+	text-align:center;
+	font-size: 30px;	
+	color: #445162;
+	font-weight: normal;
+}
+
+.screenshots-wrp {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding:0px 50px 0px 50px;
+}
+
+.screenshots-figure {
+	margin:0px;
+	padding:0px 0px 25px 0px;
+	width:46%;
+}
+.screenshots-figure-img {
+	width:202px;
+	height:153px;
+	margin: 13px 13px 0px 0px;
+	background-color: #445162;
+	display:block;
+	float:left;
+	box-sizing: border-box;
+}
+.screenshots-figure-h3 {
+	padding: 13px;
+	font-size: 24px;	
+	color: #445162;
+	font-weight: normal;
+}
+.screenshots-figure-text {
+	padding: 0px 13px 0px 13px ;
+	font-size: 16px;	
+	line-height: 20px;
+	color: #333333;
+}
+
+.reviews {
+	width: 1280px;
+	background-color: #F5F5F5;
+}
+.reviews-h2{
+	padding:25px;
+	text-align:center;
+	font-size: 30px;	
+	color: #445162;
+	font-weight: normal;
+}
+
+.reviews-wrp {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding:0px 50px 0px 50px;
+}
+
+.reviews-card {
+	margin:0px;
+	padding:0px 0px 25px 0px;
+	width:46%;
+}
+.reviews-card-img {
+	width:66px;
+	height:66px;
+	margin: 30px;
+	border-radius: 33px;
+	background-color: #445162;
+	display:block;
+	float:left;
+	box-sizing: border-box;
+}
+
+.reviews-card-text {
+	margin-top:24px;
+	padding: 16px 10px 5px 30px;
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;	
+	color: #000000;
+}
+
+.reviews-card-link {
+	font-size: 14px;	
+	color: #989898;
+}
+
+
+.prices {
+	width: 1280px;
+}
+.prices-h2{
+	padding-top:45px;
+	text-align:center;
+	font-size: 30px;	
+	color: #445162;
+	font-weight: normal;
+}
+
+.prices-wrp {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.prices-block {
+	margin:22px;
+	width:300px;
+	background-color: #445162;
+	border-radius: 5px;
+}
+
+.prices-block-h3 {
+	margin-top:14px;
+	text-align: center;
+	font-size: 24px;	
+	color: #FFFFFF;
+}
+
+.prices-block-value {
+	width:300px;
+	height:71px;
+	border:2px;
+	border-style: solid;
+	border-color:#445162;
+	padding-top:25px;
+	text-align: center;
+	font-size: 40px;	
+	line-height:30px;
+	color: #445162;
+	background-color: #FFFFFF;
+	box-sizing:border-box;
+}
+
+.prices-block-list{
+	padding:8px 8px 8px 20px;
+	text-align: left;
+	font-size: 14px;	
+	line-height:24px;
+	color: #FFFFFF;
+}
+
+ .prices-block-button {
+	margin: 16px 19px 19px 19px;
+	width: 262px;
+	height: 43px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+	color: #445162;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform:uppercase;
+ }
+ 
+ .contacts {
+	width: 1280px;
+	background-color: #445162;
+}
+ 
+ .contacts-h2{
+	padding:25px;
+	text-align:center;
+	font-size: 30px;	
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+.contacts-copyright {
+	text-align:center;
+	font-size: 12px;
+	line-height: 24px;
+	color: #445162;
+}
+ 
