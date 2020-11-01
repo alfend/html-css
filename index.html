@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
   <link rel="stylesheet" href="style.css">
-  
-  <title>less2</title>
+  <link rel="icon" type="image/png" href="https://geekbrains.ru/favicon-32x32.png" sizes="32x32">
+  <title>less3</title>
 </head>
 <body>
   <div class="container">
@@ -37,7 +37,13 @@
           <p class="about-product-text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
         </div>
 		<div class="about-product-wrp2">
-			<video class="about-product-video" src="#" width="" height=""></video>
+		<a href="video.html">
+		<video controls class="about-product-video" preload="auto" muted="muted">
+			<source src="img/video.webm" type="video/webm">
+			<source src="img/video.mp4" type="video/mp4">
+			Тег video не поддерживается вашим браузером.
+		</video>
+		</a>
 		</div>
       </section>
       <section class="dignity">
@@ -91,32 +97,32 @@
 				<div class="reviews-card">
 					<img class="reviews-card-img" src="" alt="" width="" height="">
 					<p class="reviews-card-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam 
-					nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</br>
+					nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?<br>
 					<a  class="reviews-card-link" href="#">Lourens S.</a>
 					</p>
 				</div>
 				<div class="reviews-card">
 					<img class="reviews-card-img" src="" alt="" width="" height="">
 					<p class="reviews-card-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam 
-					nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</br>
+					nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?<br>
 					<a  class="reviews-card-link" href="#">Lourens S.</a>
 					</p>
 				</div>
 				<div class="reviews-card">
 					<img class="reviews-card-img" src="" alt="" width="" height="">
 					<p class="reviews-card-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam 
-					nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</br>
+					nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?<br>
 					<a  class="reviews-card-link" href="#">Lourens S.</a>
 					</p>
 				</div>
 				<div class="reviews-card">
 					<img class="reviews-card-img" src="" alt="" width="" height="">
 					<p class="reviews-card-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam 
-					nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</br>
+					nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?<br>
 					<a  class="reviews-card-link" href="#">Lourens S.</a>
 					</p>
 				</div>
-
+			</div>
       </section>
       <section class="prices">
         <h2 class="prices-h2">Buy it now</h2>
@@ -172,9 +178,35 @@
     <footer>
       <section class="contacts">
         <h2 class="contacts-h2">Contacts</h2>
+		<div class="contacts-wrp">
+			<div class="contacts-form">
+				<form action="send.php" method="post">
+					<input name="title" class="contacts-form-text" type="text" placeholder="Заголовок:">
+					<input name="email" class="contacts-form-text" type="email" placeholder="Кому email:" required>
+					<textarea name="message" class="contacts-form-message" placeholder="Сообщение:"></textarea>
+					<p class="contacts-form-p">PS: Проверьте на всякий случай в спаме, прошу не баловаться.</p>
+					
+					<button class="contacts-form-button" type="submit">send</button>
+					
+				</form>
+			</div>
+			<div class="contacts-data">
+				<ul class="contacts-data-list">
+					<li class="contacts-data-item icon-skype">alfend2</li>
+					<li class="contacts-data-item icon-icq">none</li>
+					<li class="contacts-data-item icon-mail"><a href="mailto:alfend@ya.ru">alfend@ya.ru</a></li>
+					<li class="contacts-data-item icon-tel"><a href="tel:89501869241">8(950)186-92-41</a></li>
+				</ul>
+				<div class="contacts-soc">
+					<a href="#"><img src="img/icon-soc.png"></a>
+				</div>
+			</div> 
+		</div>
+		
+		
       </section>
       <section>
-        <p class="contacts-copyright">Copyright © 2014 Product name · PSD HTML CSS</p>
+        <p class="contacts-copyright">Copyright © 2020 Product name · PSD HTML CSS</p>
       </section>
     </footer>
   </div>

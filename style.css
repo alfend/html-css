@@ -48,7 +48,7 @@ body {
 	position: absolute;
 	top: 3px;
 	left: 0;
-	background-image: url('https://i.ibb.co/QkRXTBg/check-icon-1.png');
+	background-image: url('img/icon1.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 5px;
@@ -139,7 +139,7 @@ body {
 	position: absolute;
 	top: 5px;
 	left: 0;
-	background-image: url('https://www.goprintandpromo.com/wp-content/uploads/sites/11/2016/11/PrintandPromo-Logo.jpg');
+	background-image: url('img/icon2.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 5px;	
@@ -324,10 +324,176 @@ body {
 	font-weight: normal;
 }
 
+.contacts-wrp {
+	display: flex;
+	justify-content: center;
+}
+
+.contacts-form{
+	text-align:center;
+}
+
+.contacts-form-text {
+	margin-bottom:18px;
+	display: block;
+	width: 503px;
+	height:43px;
+	border-radius: 5px;
+	border:none;
+}
+
+.contacts-form-text::-webkit-input-placeholder {
+  transform: translateX(10px) translateY(-5px);
+  color: #445162;
+  size: 16px;
+  font-family: Arial;
+}
+
+.contacts-form-message {
+	margin-bottom:18px;
+	display: block;
+	width: 503px;
+	height:173px;
+	border-radius: 5px;
+	border:none;
+}
+
+.contacts-form-message::-webkit-input-placeholder {
+  transform: translateX(10px) translateY(10px);
+  color: #445162;
+  size: 16px;
+  font-family: Arial;
+}
+
+.contacts-form-button{
+	width: 143px;
+	height: 43px;
+	margin-bottom:48px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+	color: #445162;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform:uppercase;
+	
+}
+
+.contacts-form-p {
+	margin-top: -20px;
+	text-align: left;
+	font-size: 10px;	
+	font-style: italic;
+	line-height:24px;
+	color: #FFFFFF;
+}
+
+.contacts-data-item {
+	padding-bottom: 20px;
+	text-align: left;
+	font-size: 16px;	
+	line-height:24px;
+	color: #FFFFFF;
+	
+	margin-left: 25px;
+	padding-left: 25px;
+	position: relative;
+}
+
+.contacts-data-item a {
+	text-align: left;
+	font-size: 16px;	
+	line-height:24px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.icon-skype::before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	background-image: url('img/icon3.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 5px;	
+}
+
+.icon-icq::before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	background-image: url('img/icon4.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 5px;	
+}
+
+.icon-mail::before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	background-image: url('img/icon5.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 5px;	
+}
+
+.icon-tel::before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	background-image: url('img/icon6.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 5px;	
+}
+
+.contacts-soc {
+	padding:50px 0px 30px 50px;
+}
+
 .contacts-copyright {
 	text-align:center;
 	font-size: 12px;
 	line-height: 24px;
 	color: #445162;
+}
+ 
+ 
+ .fullscreen-bg {
+position: absolute;
+top: 0px;
+left: 0px;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+overflow: hidden;
+}
+
+.fullscreen-bg video{
+min-height: 100%;
+min-width: 100%;
+width: 100%;
+background-position: center center;
+background-repeat: no-repeat;
 }
  
